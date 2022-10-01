@@ -47,6 +47,7 @@ while True:  # main while loop. use loop for capturing the user input
 
         while True:
             student_grade()  # get user input to show grades of students from the list
+            # display grade for each individual student. ask user for inour studen
             user_input = input()
             if user_input == 'g':
                 for student in students_List_One:
